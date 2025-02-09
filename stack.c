@@ -5,6 +5,7 @@
 #include <stdbool.h>
 
 #define MAX 10
+
 int top = -1;
 
 #define MALLOC(p,s) \
