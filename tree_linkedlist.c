@@ -254,7 +254,7 @@ int main (int argc, char *argv[]) {
     preorder(ROOT);
     printf("searchBST");
     searchBST(ROOT);
-    ROOT = deleteNode(ROOT,100);
+    deleteNode(ROOT,100);
     printf("after delete\n");
     preorder(ROOT);
     //printf("after delete\n");
