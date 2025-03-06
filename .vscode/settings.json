@@ -13,7 +13,8 @@
         "chrono": "cpp",
         "limits": "cpp",
         "valarray": "cpp",
-        "malloc.h": "c"
+        "malloc.h": "c",
+        "array": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled",
 }
