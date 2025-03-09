@@ -12,6 +12,7 @@ int main(){
         int temp = array[i];
         array[0] = temp;
         int j = i;
+        //利用array[0] = temp 當邊界
         while(temp<array[j-1]){
             array[j] = array[j-1];
             j--; 
